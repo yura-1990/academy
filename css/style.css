@@ -4,3 +4,174 @@
   box-sizing: border-box;
 }
 
+.tolqin__content {
+  height: 824.63px;
+}
+
+.tolqin__content__h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 150%;
+  margin-bottom: 19px;
+  margin-top: 132px;
+}
+
+.tolqin__content__h3 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  color: #69697B;
+}
+
+.time {
+  display: flex;
+  margin-left: 270px;
+  gap: 30px;
+}
+
+.full {
+  margin-top: 71px;
+}
+
+.kampyuter {
+  margin-left: 50px;
+}
+
+.full__div {
+  width: 359px;
+  height: 125px; 
+}
+
+.full__h2 {
+  text-align: center;
+  height: 33px;
+  font-size: 26px;
+  line-height: 33px;
+  color: #0B0B2C;
+  margin-top: 54px;
+}
+
+.full__text {
+  width: 230px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #69697B;
+  margin-left: 70px;
+}
+
+/*  */
+
+.tolqin__frontend {
+  width: 100%;
+  height: 540px;
+  background: #024592;
+}
+
+.professionel {
+  display: flex;
+}
+
+.nami__h1 {
+  width: 455px;
+  font-size: 40px;
+  line-height: 150%;
+  color: #fff;
+  margin-top: 97px;
+  margin-bottom: 20px;
+}
+
+.nami__h3 {
+  font-size: 25px;
+  line-height: 38px;
+  color: #fff;
+}
+
+.nami__h4 {
+  font-size: 25px;
+  line-height: 38px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.nami__btn {
+  width: 234px;
+  height: 50px;
+  color: #3434FF;
+  margin: 0px 10px;
+  font-size: 20px;
+  line-height: 30px;
+  z-index: 1;
+}
+
+.loga {
+  width: 592.53px;
+  height: 420.71px;
+  margin-top: 57px;
+  margin-left: 81px;
+}
+/*  */
+
+.student {
+  width: 991px;
+  height: 639px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.student__h1 {
+  width: 445px;
+  height: 120px;
+  font-size: 40px;
+  line-height: 150%;
+  color: #0B0B2C;
+  margin-bottom: 15px;
+  margin-left: 46px;
+}
+.student__h3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+  margin-left: 46px;
+}
+
+.name {
+  display: flex;
+}
+
+.asad {
+  width: 360px;
+  height: 230px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 143px;
+  margin-top: 40px;
+}
+
+.asad__img {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.name__text {
+  width: 252.2px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #333333;
+  margin-top: -20px;
+  margin-left: 68px;
+}
+
+.name__h1 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #0B0B2C;
+  margin-left: 68px;
+}
+
+.name__two {
+  margin-bottom: 100px;
+  margin-left: -100px;
+  margin-top: -130px;
+}

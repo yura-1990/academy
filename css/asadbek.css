@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Manrope:wght@700&family=Montserrat:wght@700&family=Mulish:wght@400;700&family=Nunito:wght@700&family=Poppins:wght@400;500;600;700&family=Roboto&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    
+}
+:root{
+    --comforta-font:  'Comfortaa', cursive;
+    --monserat-font:  'Montserrat', sans-serif;
+    --popins-font: 'Poppins', sans-serif;
+}
+.asadbek {
+    background: linear-gradient(180deg, #BAC5F4 0%, #FFFFFF 100%);
+  
+  }
+  
+  .h-661px {
+    height: 611px;
+   
+  }
+  
+  .asadbek__title1{
+    color: #0B0B2C;
+    font-family: var(--popins-font);
+    font-size: 50px;
+    line-height: 68px;
+    width: 540px;
+    font-weight: 700;
+  }
+  
+  .asadbek__text1 {
+    font-family: var(--popins-font);
+    font-size: 20px;
+    line-height: 30px;
+    color: #69697B;
+    width: 500px;
+  }
+  .asadbek-btn {
+    background: #024592;
+    color: #fff;
+    font-size: 20px;
+   padding-left: 20px;
+   line-height: 30px;
+   padding-right: 20px;
+  }
+  .cours__navbar {
+      gap: 30px;
+  }
+  .cours__navbar  .cours__items{
+    width: 263px;
+    height: 49px;
+    border: 1px solid  #3434FF;
+    border-radius: 6px;
+  }
+  .bg-primary-accent  {
+    background: #3434FF;
+   color:#FFFFFF ;
+  }
+ .color-white{
+     color: #fff;
+     font-size: 20px;
+     line-height: 30px;
+ }
+  .cours__navbar  .cours__items .course-links{
+   color: #3434FF;
+   font-size: 20px;
+   line-height: 30px;
+  }
+
+ .cours-info__img{
+     width: 574px;
+     position: relative;
+     height: 520px;
+ }
+ 
+ .bg-banner-1 {
+    width: 554px;
+    height: 429px;
+     position: absolute;
+     top: 50px;
+     background: #EFF4FF;
+     z-index: -2;
+     border-radius: 8px;
+ }
+ .bg-banner-2{
+    width: 554px;
+    height: 429px;
+     position: absolute;
+     top: 50px;
+     background: #EFF4FF;
+     z-index: -2;
+     border-radius: 8px;
+     transform: rotate(-10deg);
+ }
+ .bg-banner-3{
+    width: 556px;
+    height: 443px;
+     position: absolute;
+   
+     background: #EFF4FF;
+     z-index: -2;
+     border-radius: 8px;
+     transform: rotate(-10deg);
+ }
+ .bg-banner-4 {
+    width: 554px;
+    height: 429px;
+     position: absolute;
+     top: 30px;
+     background: #EFF4FF;
+     z-index: -2;
+     border-radius: 8px;
+ }
+ .bg-banner-5 {
+    width: 556px;
+    height: 443px;
+     position: absolute;
+   
+     background: #EFF4FF;
+     z-index: -2;
+     border-radius: 8px;
+     transform: rotate(-10deg);
+ }
+ .bg-banner-6 {
+    width: 556px;
+    height: 443px;
+     position: absolute;
+   
+     background: #EFF4FF;
+     z-index: -2;
+     border-radius: 8px;
+     transform: rotate(10deg);
+ }
+  .cours-info__text-content {
+      width: 592px;
+  }
+  .cours-info-title {
+      font-family: var(--monserat-font);
+      font-size: 30px;
+      color: #3434FF;
+      line-height: 36px;
+  }
+  .cours-info-title2 {
+      font-size: 20px;
+      line-height: 30px;
+      color:  #0B0B2C;
+      font-weight: 700;
+      
+  }
+  .cours-info__text{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  color: #69697B;
+
+  }
+
+
+  .commentary{
+      max-width: 991px;
+      width: 100%;
+      margin: 35px auto;
+  }
+   

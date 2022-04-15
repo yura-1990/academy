@@ -5,7 +5,244 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
+
+:root {
+  --mumn: "Mulish";
+}
+:root {
+  --momts: "Montserrat";
+}
+root {
+  --pops: "Poppins";
+}
+
+
+
+
+.hero__content {
+  position: relative;
+}
+
+.hero__img {
+  border-radius: 20px;
+  position: absolute;
+  z-index: 2;
+  left: 880px;
+  top: 139px;
+}
+
+.hero {
+  background-image: url(../img/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero__item {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.hero__left {
+  margin-right: 700px;
+  margin-top: 160px;
+}
+
+.hero__tittle {
+  font-family: var(--momts);
+  width: 585px;
+  height: 136px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #0b0b2c;
+}
+span {
+  color: #3434ff;
+}
+.hero__text {
+  font-family: var(--mumn);
+  width: 375px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #69697b;
+}
+.btn {
+  width: 196px;
+  height: 50px;
+  background: #3434ff;
+  border-radius: 4px;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.hero__radius_1 {
+  position: absolute;
+  width: 306px;
+  height: 306px;
+  left: 1320px;
+  top: 122px;
+}
+.hero__radius_2 {
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  left: 820px;
+  top: 550px;
+}
+
+/* ======================================== */
+
+.work__content {
+  margin-top: 60px;
+}
+.block {
+  width: 1125px;
+  height: 332px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.block__item__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.block__tittle {
+  font-family: var(--momts);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #0b0b2c;
+}
+.block__box__text {
+  margin-top: 30px;
+  font-family: var(--mumn);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #0b0b2c;
+}
+
+/* ======================================================= */
+.academy__block {
+  margin-top: 90px;
+  display: flex;
+  gap: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.academy__tittle {
+  font-family: var(--momts);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #0b0b2c;
+}
+.acadrmy__text {
+  width: 555px;
+  height: 183px;
+  font-family: var(--mumn);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #69697b;
+}
+
+/* ========================================================= */
+
+.cours__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(373px, max-content);
+  grid-auto-columns: minmax(263px, max-content);
+  grid-gap: 60px;
+  padding-top: 30px;
+}
+.cours__tittle {
+  padding: 20px;
+  font-family: var(--momts);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #0b0b2c;
+  text-align: center;
+}
+.cours__item {
+  overflow: hidden;
+  grid-column: span 1;
+  grid-row: span 1;
+  width: 263px;
+  height: 373px;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.cours__item:hover {
+  transform: scale(1.2);
+  transition: 0.3s linear;
+}
+.cours__item:active {
+  transform: scale(1.1);
+  transition: 0.3s linear;
+}
+hr {
+  border: 1px solid gray;
+  min-width: 160px;
+  height: 2px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.cours2__tittle {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: var(--mumn);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0b0b2c;
+}
+.block__text {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: var(--mumn);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #69697b;
+}
+.block__btn {
+  margin-top: 100px;
+  margin-left: 480px;
+  margin-bottom: 50px;
+}
+
 
 .tolqin__content {
   height: 824.63px;

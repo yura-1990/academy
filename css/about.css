@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.root{
+  --pop: "Poppins";
+}
+
+.muhammad{
+    width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.muhammad__top{
+    height: 618px;
+    position: relative;
+}
+
+.muhammad__top>img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+
+.muhammad__card{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card__item:nth-of-type(1){
+    height: 250px;
+    margin-top: 72px;
+}
+
+.card__item:nth-of-type(2){
+    height: 300px;
+    margin-top: 22px;
+}
+
+.card__item:nth-of-type(3){
+    height: 300px;
+    margin-top: 22px;
+}
+
+.card__item:nth-of-type(4){
+    height: 250px;
+    margin-top: 72px;
+}
+
+.muhammad__center{
+    width: 100%;
+    height: 210px;
+    background: rgba(239, 244, 255, 1);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 95px;
+}
+
+.center__title{
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 60px;
+    color: rgba(11, 11, 44, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.center__text{
+    margin-top: 17px;
+    width: 200px;
+    font-size: 24px;
+    color: rgba(11, 11, 44, 1);
+    text-align: center;
+}
+
+.muhammad__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+}
+
+.bottom__left{
+    margin-top: -1px;
+}
+
+.bottom__right{
+    margin-top: 75px;
+}
+
+.bottom__title{
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 60px;
+    color: rgba(11, 11, 44, 1);
+}
+
+.bottom__text1{
+    margin-top: 40px;
+    width: 560px;
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.bottom__text2{
+    margin-top: 20px;
+    width: 560px;
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(51, 51, 51, 1);
+}

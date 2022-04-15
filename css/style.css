@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -179,4 +182,16 @@
   margin-bottom: 100px;
   margin-left: -100px;
   margin-top: -130px;
+}
+
+body{
+  background: #E5E5E5;
+}
+
+.root{
+  --pop: "Poppins";
+}
+
+.muhammad{
+
 }

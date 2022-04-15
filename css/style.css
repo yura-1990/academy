@@ -42,7 +42,7 @@
 
 .full__div {
   width: 359px;
-  height: 125px; 
+  height: 125px;
 }
 
 .full__h2 {
@@ -108,9 +108,9 @@
   border: none;
 }
 
-.nami__btn:hover{
+.nami__btn:hover {
   color: #fff;
-  background :#024592;  
+  background: #024592;
 }
 
 .loga {
@@ -119,6 +119,7 @@
   margin-top: 57px;
   margin-left: 81px;
 }
+
 /*  */
 
 .student {
@@ -137,6 +138,7 @@
   margin-bottom: 15px;
   margin-left: 46px;
 }
+
 .student__h3 {
   font-size: 20px;
   line-height: 30px;
@@ -184,14 +186,10 @@
   margin-top: -130px;
 }
 
-body{
+body {
   background: #E5E5E5;
 }
 
-.root{
+.root {
   --pop: "Poppins";
-}
-
-.muhammad{
-
 }

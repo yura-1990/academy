@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academy</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+            </div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Academy</title>
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
@@ -35,8 +70,33 @@
               </li>
             </ul>
           </div>
-        </div>
 
+          <a class="navbar-brand" href="#">Navbar</a>
+          <ul class="header__list">
+            <li>
+              <a href="tel:+998712007477" class="header__link">
+                +998(71) 200 74 77
+              </a>
+            </li>
+            <li>
+              <a href="#" class="header__link">
+                <img src="./img/telegram.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="header__link">
+                <img src="./img/instagram.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="header__link">
+                <img src="./img/facebook.png" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
         <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
         <ul class="header__list">
           <li><a href="tel:+998712007477" class="header__link">
@@ -56,128 +116,87 @@
     </nav>
   </header>
 
-  <main>
-    <section class="bekzod">
-      <div class="hero">
-        <div class="container hero__content">
-          <img class="hero__radius_1" src="./img/radius-1.png" alt="" />
-          <img class="hero__radius_2" src="./img/radius-2.png" alt="" />
+    <main>
+      <section class="bekzod">
+        <div class="hero">
+          <div class="container hero__content">
+            <img class="hero__radius_1" src="./img/radius-1.png" alt="" />
+            <img class="hero__radius_2" src="./img/radius-2.png" alt="" />
 
-          <div class="hero__item">
-            <div class="hero__left">
-              <h1 class="hero__tittle">
-                Учись навыкам <span>будущего</span> сегодня
-              </h1>
-              <p class="hero__text">
-                Строим лучшее образование страны. Присоединяйтесь!
+            <div class="hero__item">
+              <div class="hero__left">
+                <h1 class="hero__tittle">
+                  Учись навыкам <span>будущего</span> сегодня
+                </h1>
+                <p class="hero__text">
+                  Строим лучшее образование страны. Присоединяйтесь!
+                </p>
+
+                <button class="btn" type="submit">Записаться</button>
+              </div>
+            </div>
+            <img class="hero__img" src="./img/hero-img.png" alt="" />
+          </div>
+        </div>
+
+        <div class="container work__content">
+          <h2 class="block__tittle">Наши преимущества</h2>
+          <div class="block">
+            <div class="block__item">
+              <div class="block__item__box">
+                <img src="./img/block.png" alt="" />
+                <p class="block__box__text">Профессиональные преподаватели</p>
+              </div>
+
+              <div class="block__item__box">
+                <img src="./img/block.png" alt="" />
+                <p class="block__box__text">Профессиональные преподаватели</p>
+              </div>
+
+              <div class="block__item__box">
+                <img src="./img/block.png" alt="" />
+                <p class="block__box__text">Профессиональные преподаватели</p>
+              </div>
+
+              <div class="block__item__box">
+                <img src="./img/block.png" alt="" />
+                <p class="block__box__text">Профессиональные преподаватели</p>
+              </div>
+
+              <div class="block__item__box">
+                <img src="./img/block.png" alt="" />
+                <p class="block__box__text">Профессиональные преподаватели</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container academy__block">
+          <img src="./img/academy.png" width="521" height="390" alt="" />
+
+          <div class="academy__right">
+            <h3 class="academy__tittle">О нашей Академии</h3>
+            <p class="acadrmy__text">
+              Мы помогаем сформулировать ожидания от курсов и выбрать подходящую
+              траекторию обучения. Студент попадает в комфортную образовательную
+              среду: быстро вовлекается в учебный процесс, получает обратную
+              связь от экспертов и обменивается опытом с единомышленниками.
+            </p>
+            <button class="btn" type="submit">Узнать больше</button>
+          </div>
+        </div>
+
+        <div class="container cours">
+          <h3 class="cours__tittle">Наши курсы</h3>
+
+          <div class="cours__box">
+            <div class="cours__item">
+              <img src="./img/cours-1.png" width="263" height="181" alt="" />
+              <h4 class="cours2__tittle">Front-End Development</h4>
+              <hr />
+              <p class="block__text">
+                HTML5, CSS3 и BootStrap, JavaScript (OOP/ES6-9) и др
               </p>
-
-              <button class="btn" type="submit">Записаться</button>
-            </div>
-          </div>
-          <img class="hero__img" src="./img/hero-img.png" alt="" />
-        </div>
-      </div>
-
-      <div class="container work__content">
-        <h2 class="block__tittle">Наши преимущества</h2>
-        <div class="block">
-          <div class="block__item">
-            <div class="block__item__box">
-              <img src="./img/block.png" alt="" />
-              <p class="block__box__text">Профессиональные преподаватели</p>
-            </div>
-
-            <div class="block__item__box">
-              <img src="./img/block.png" alt="" />
-              <p class="block__box__text">Профессиональные преподаватели</p>
-            </div>
-
-            <div class="block__item__box">
-              <img src="./img/block.png" alt="" />
-              <p class="block__box__text">Профессиональные преподаватели</p>
-            </div>
-
-            <div class="block__item__box">
-              <img src="./img/block.png" alt="" />
-              <p class="block__box__text">Профессиональные преподаватели</p>
-            </div>
-
-            <div class="block__item__box">
-              <img src="./img/block.png" alt="" />
-              <p class="block__box__text">Профессиональные преподаватели</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container academy__block">
-        <img src="./img/academy.png" width="521" height="390" alt="" />
-
-        <div class="academy__right">
-          <h3 class="academy__tittle">О нашей Академии</h3>
-          <p class="acadrmy__text">
-            Мы помогаем сформулировать ожидания от курсов и выбрать подходящую
-            траекторию обучения. Студент попадает в комфортную образовательную
-            среду: быстро вовлекается в учебный процесс, получает обратную
-            связь от экспертов и обменивается опытом с единомышленниками.
-          </p>
-          <button class="btn" type="submit">Узнать больше</button>
-        </div>
-      </div>
-
-      <div class="container cours">
-        <h3 class="cours__tittle">Наши курсы</h3>
-
-        <div class="cours__box">
-          <div class="cours__item">
-            <img src="./img/cours-1.png" width="263" height="181" alt="" />
-            <h4 class="cours2__tittle">Front-End Development</h4>
-            <hr />
-            <p class="block__text">
-              HTML5, CSS3 и BootStrap, JavaScript (OOP/ES6-9) и др
-            </p>
-          </div>
-          <div class="cours__item">
-            <img src="./img/cours-2.jpg" width="263" height="181" alt="" />
-            <h4 class="cours2__tittle">Back-End Development</h4>
-            <hr />
-            <p class="block__text">
-              PHPStorm IDE, Nginx, PHP7 и OOP CLI/CGI/FastCGI(FPM) и др
-            </p>
-          </div>
-          <div class="cours__item">
-            <img src="./img/cours-3.png" width="263" height="181" alt="" />
-            <h4 class="cours2__tittle">Web Design</h4>
-            <hr />
-            <p class="block__text">Adobe XD, Figma, Material/Ant Design</p>
-          </div>
-          <div class="cours__item">
-            <img src="./img/cours-4.jpg" width="263" height="181" alt="" />
-            <h4 class="cours2__tittle">DevOps</h4>
-            <hr />
-            <p class="block__text">
-              Docker, Kubernetes, Ansible, Amazon EC2/EC3/S3
-            </p>
-          </div>
-          <div class="cours__item">
-            <img src="./img/cours-1.png" width="263" height="181" alt="" />
-            <h4 class="cours2__tittle">Android Development</h4>
-            <hr />
-            <p class="block__text">Android Development</p>
-          </div>
-          <div class="cours__item">
-            <img src="./img/cours-2.jpg" width="263" height="181" alt="" />
-            <h4 class="cours2__tittle">SMM Specialist</h4>
-            <hr />
-            <p class="block__text">SMM Specialist</p>
-          </div>
-        </div>
-        <button class="btn block__btn" type="submit">Подробнее</button>
-      </div>
-    </section>
-
-
 
     <section class="tolqin">
 
@@ -193,66 +212,122 @@
                 с 09:00 до 13:00 или 14:00 до 18:00
                 Каждый день</p>
             </div>
-          </div>
-          <div class="full">
-            <img class="kampyuter" src="./img/kampyuter2.svg" alt="">
-            <div class="full__div">
-              <h2 class="full__h2">Part-Time</h2>
-              <p class="full__text">4 часа в день
-                с 09:00 до 13:00
-                или с 14:00 до 18:00 Через день</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="tolqin__frontend">
-      <div class="container professionel">
-        <div class="nami">
-          <h1 class="nami__h1">Изучайте с выгодой
-            вместе с нами</h1>
-          <h3 class="nami__h3">Запишитесь на курсы Frontend professional</h3>
-          <h4 class="nami__h4">Получите 10% скидку </h4>
-          <button class="nami__btn">Узнать больше</button>
-        </div>
-        <img class="loga" src="./img/loga.png" alt="">
-      </div>
-    </section>
-    <section class="tolqin__otsiviy">
-      <div class="container student">
-        <img src="./img/Frame 10.svg" alt="">
-        <h1 class="student__h1">Отзывы наших студентов</h1>
-        <h3 class="student__h3">Мотивируйтесь историями других</h3>
-        <div class="name">
-          <div class="asad">
-            <img class="asad__img" src="./img/“.svg" alt="">
-            <p class="name__text">Объяснения доходчивы, преподаватели ответственны и дружелюбны, а домашние задания —
-              настоящая практика.</p>
-            <h1 class="name__h1">Рахимов Асад</h1>
-          </div>
-          <div class="name__two">
-            <div class="asad">
-              <img class="asad__img" src="./img/“.svg" alt="">
-              <p class="name__text">Задачи, которые ставят перед нами преподаватели, заставляют задуматься и включить
-                голову, инициируют обсуждение — всё как с настоящими клиентами.</p>
-              <h1 class="name__h1">Царев Данииль</h1>
-            </div>
-            <div class="asad">
-              <img class="asad__img" src="./img/“.svg" alt="">
-              <p class="name__text">В курсе показаны все этапы работы Front-End Разработчика. А домашние задания
-                позволяют закрепить урок практикой.
+            <div class="cours__item">
+              <img src="./img/cours-2.jpg" width="263" height="181" alt="" />
+              <h4 class="cours2__tittle">Back-End Development</h4>
+              <hr />
+              <p class="block__text">
+                PHPStorm IDE, Nginx, PHP7 и OOP CLI/CGI/FastCGI(FPM) и др
               </p>
-              <h1 class="name__h1">Кадиров Санжар</h1>
+            </div>
+            <div class="cours__item">
+              <img src="./img/cours-3.png" width="263" height="181" alt="" />
+              <h4 class="cours2__tittle">Web Design</h4>
+              <hr />
+              <p class="block__text">Adobe XD, Figma, Material/Ant Design</p>
+            </div>
+            <div class="cours__item">
+              <img src="./img/cours-img4.png" width="263" height="181" alt="" />
+              <h4 class="cours2__tittle">DevOps</h4>
+              <hr />
+              <p class="block__text">
+                Docker, Kubernetes, Ansible, Amazon EC2/EC3/S3
+              </p>
+            </div>
+            <div class="cours__item">
+              <img src="./img/cours-1.png" width="263" height="181" alt="" />
+              <h4 class="cours2__tittle">Android Development</h4>
+              <hr />
+              <p class="block__text">Android Development</p>
+            </div>
+            <div class="cours__item">
+              <img src="./img/cours-2.jpg" width="263" height="181" alt="" />
+              <h4 class="cours2__tittle">SMM Specialist</h4>
+              <hr />
+              <p class="block__text">SMM Specialist</p>
             </div>
           </div>
-
+          <button class="btn block__btn" type="submit">Подробнее</button>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  
-  <footer class="footer">
+      <section class="tolqin">
+        <div class="container tolqin__content">
+          <h1 class="tolqin__content__h1">Выберите Тариф Обучения</h1>
+          <h3 class="tolqin__content__h3">
+            Подберите для себя идеальный формат обучения
+          </h3>
+          <div class="time">
+            <div class="full">
+              <img class="kampyuter" src="./img/kampyuter.svg" alt="" />
+              <div class="full__div">
+                <h2 class="full__h2">Full-Time</h2>
+                <p class="full__text">
+                  4 часов в день с 09:00 до 13:00 или 14:00 до 18:00 Каждый день
+                </p>
+              </div>
+            </div>
+            <div class="full">
+              <img class="kampyuter" src="./img/kampyuter2.svg" alt="" />
+              <div class="full__div">
+                <h2 class="full__h2">Part-Time</h2>
+                <p class="full__text">
+                  4 часа в день с 09:00 до 13:00 или с 14:00 до 18:00 Через день
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tolqin__frontend">
+        <div class="container professionel">
+          <div class="nami">
+            <h1 class="nami__h1">Изучайте с выгодой вместе с нами</h1>
+            <h3 class="nami__h3">Запишитесь на курсы Frontend professional</h3>
+            <h4 class="nami__h4">Получите 10% скидку</h4>
+            <button class="nami__btn">Узнать больше</button>
+          </div>
+          <img class="loga" src="./img/loga.png" alt="" />
+        </div>
+      </section>
+      <section class="tolqin__otsiviy">
+        <div class="container student">
+          <img src="./img/Frame 10.svg" alt="" />
+          <h1 class="student__h1">Отзывы наших студентов</h1>
+          <h3 class="student__h3">Мотивируйтесь историями других</h3>
+          <div class="name">
+            <div class="asad">
+              <img class="asad__img" src="./img/“.svg" alt="" />
+              <p class="name__text">
+                Объяснения доходчивы, преподаватели ответственны и дружелюбны, а
+                домашние задания — настоящая практика.
+              </p>
+              <h1 class="name__h1">Рахимов Асад</h1>
+            </div>
+            <div class="name__two">
+              <div class="asad">
+                <img class="asad__img" src="./img/“.svg" alt="" />
+                <p class="name__text">
+                  Задачи, которые ставят перед нами преподаватели, заставляют
+                  задуматься и включить голову, инициируют обсуждение — всё как
+                  с настоящими клиентами.
+                </p>
+                <h1 class="name__h1">Царев Данииль</h1>
+              </div>
+              <div class="asad">
+                <img class="asad__img" src="./img/“.svg" alt="" />
+                <p class="name__text">
+                  В курсе показаны все этапы работы Front-End Разработчика. А
+                  домашние задания позволяют закрепить урок практикой.
+                </p>
+                <h1 class="name__h1">Кадиров Санжар</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+   <footer class="footer">
     <div class="container">
        <div class="footer__content">
           <div class="obuna">
@@ -274,13 +349,15 @@
                 <a href="#"><img src="./img/instagram.png" alt=""></a>
              </ul>
           </div>
-       </div>
-       <h1 class="footer__h1">© 2020 ZetSoft Academy. Все права защищены</h1>
-    </div>
+        </div>
+         <h1 class="footer__h1">© 2020 ZetSoft Academy. Все права защищены</h1>
+      </div>
     
-  </footer>
+    </footer>
   
-  <script src="./script/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="./script/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
+
+  
+ 

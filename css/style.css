@@ -19,10 +19,6 @@
 root {
   --pops: "Poppins";
 }
-
-
-
-
 .hero__content {
   position: relative;
 }
@@ -103,8 +99,6 @@ span {
   top: 550px;
 }
 
-/* ======================================== */
-
 .work__content {
   margin-top: 60px;
 }
@@ -146,8 +140,6 @@ span {
   text-align: center;
   color: #0b0b2c;
 }
-
-/* ======================================================= */
 .academy__block {
   margin-top: 90px;
   display: flex;
@@ -172,7 +164,6 @@ span {
   color: #69697b;
 }
 
-/* ========================================================= */
 
 .cours__box {
   display: grid;
@@ -241,6 +232,34 @@ hr {
   margin-top: 100px;
   margin-left: 480px;
   margin-bottom: 50px;
+}
+.header {
+  height: 80px;
+  background: #EFF4FF;
+  box-shadow: 0px 6px 30px rgba(9, 7, 37, 0.06);
+}
+
+.li__a {
+   color: #024592;
+   text-decoration: none;
+   margin-top: -30px;
+   margin-left: 30px;
+}
+
+.active {
+  font-size: 16px;
+  line-height: 150%;
+  color: #024592;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.header__link {
+  text-decoration: none;
 }
 
 
@@ -390,7 +409,7 @@ hr {
 .asad {
   width: 360px;
   height: 230px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   margin-left: 143px;
   margin-top: 40px;
@@ -423,10 +442,98 @@ hr {
   margin-top: -130px;
 }
 
+body{
+  background: #e5e5e5;
+
 body {
   background: #E5E5E5;
+
 }
 
 .root {
   --pop: "Poppins";
+
+}
+
+
+
+.footer {
+  height: 281px;
+  background: #EFF4FF;
+}
+
+.footer__content {
+   display: flex;
+}
+
+.obuna {
+  width: 359px;
+  height: 180px;
+  padding-top: 71px;
+  padding-bottom: 30px;
+}
+
+.obuna__h3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #024592;
+  margin-top: 8px;
+  margin-bottom: 58px;
+}
+
+.div {
+  display: flex;
+  gap: 280px;
+}
+
+.form {
+  font-size: 16px;
+  line-height: 150%;
+  color: #024592;
+}
+
+.buton {
+  width: 50px;
+  height: 50px;
+  background: #024592;
+  border-radius: 8px 8px 0px 0px;
+  border: none;
+  color: #fff;
+  margin-top: -23px;
+  
+}
+
+.obuna__btn {
+  width: 359px;
+  height: 1px;
+  border: none;
+  background: #024592;
+  mix-blend-mode: normal;
+}
+
+.tarif {
+   margin-top: 133px;
+   margin-left: 217px;
+}
+
+.tarif__link {
+  text-decoration: none; 
+  font-size: 16px;
+  line-height: 150%;
+  color: #024592;
+}
+
+.tarif__title {
+   display: flex;
+   gap: 50px;
+   list-style-type: none;
+}
+
+.footer__h1 {
+   margin-left: 830px;
+   margin-top: 25px;
+   font-size: 16px;
+   line-height: 150%;
+}
+
 }
